@@ -90,10 +90,6 @@ body {
     font-weight: 900;
 }
 
-.more-info-label{
-    color: var(--white);
-}
-
 .more-info-container{
     flex: 1; 
     background-color: var(--shadow-light);
@@ -153,10 +149,11 @@ body {
     text-align: center;
 }
 
-.day-sel-container{
-    
+.button1{
+    width: 45px; 
+    height: 45px;
+    display: inline-block;
+    align-items: center;
+    justify-content:center ;
 }
 
-.day-sel-container button{
-    color: var(--blue-2)
-}

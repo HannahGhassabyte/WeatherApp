@@ -18,9 +18,11 @@
         </div>
     </div>
     <div class="lower-data">
-        <div class = "day-sel-container">
+        <div class = "day-buttons">
             <mat-button-toggle-group name="date"> 
-                <button mat-stroked-button>{{weekday1}}</button>
+                <button mat-raised-button>{{weekday1}}
+                    <mat-icon aria-hidden="true" aria-label="img1">sunny</mat-icon>
+                </button> 
                 <button mat-stroked-button>{{weekday2}}</button>
                 <button mat-stroked-button>{{weekday3}}</button>
                 <button mat-stroked-button>{{weekday4}}</button>
